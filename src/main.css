@@ -1,0 +1,19 @@
+/* main.css: Tailwind CSS entry for GitHub Traffic Monitor UI */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-950 text-white font-mono;
+}
+
+/* Optional: Custom tweaks for cards/inputs */
+.card {
+  @apply bg-gray-900 rounded-xl shadow-lg p-8;
+}
+input, select {
+  @apply rounded bg-gray-800 text-white border border-gray-700 px-3 py-2;
+}
+button {
+  @apply font-bold rounded px-4 py-2 shadow transition duration-150;
+}

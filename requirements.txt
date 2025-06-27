@@ -1,0 +1,29 @@
+# --- Core Python Backend ---
+fastapi>=0.110.0
+uvicorn[standard]>=0.29.0
+python-dotenv
+PyGithub>=2.3.0
+pydantic>=2.6.0
+
+# --- Security/Hardening ---
+slowapi>=0.1.9
+
+# --- CORS ---
+starlette>=0.37.2
+
+# --- Frontend React (for reference, not used by backend) ---
+# react, react-dom, tailwindcss, recharts, axios, dayjs
+
+# --- Data/Plotting (backend exports/optional) ---
+pandas>=2.2.0
+matplotlib>=3.8.0
+
+# --- YAML/Config ---
+pyyaml
+
+# --- Testing ---
+pytest
+pytest-asyncio
+
+# --- Other utilities ---
+requests

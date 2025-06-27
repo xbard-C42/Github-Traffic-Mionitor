@@ -1,0 +1,60 @@
+{
+  "name": "Copy of GitHub Traffic Monitor",
+  "description": "A secure, full-stack app for tracking, visualising, and auditing traffic to all your GitHub repositories, with trend analytics and admin-only setup.",
+  "version": "1.0.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-org/github-traffic-monitor"
+  },
+  "authors": [
+    {
+      "name": "Matthew Cummins",
+      "role": "Lead Developer",
+      "email": "optional@yourdomain.com"
+    }
+  ],
+  "stack": {
+    "backend": [
+      "FastAPI",
+      "PyGithub",
+      "slowapi",
+      "python-dotenv"
+    ],
+    "frontend": [
+      "React",
+      "Vite",
+      "TailwindCSS",
+      "Recharts",
+      "Axios",
+      "dayjs"
+    ],
+    "database": "Flat file (JSON history), .env config, optional audit log",
+    "security": [
+      "API key auth",
+      "Admin setup token",
+      "CORS restriction",
+      "Rate limiting",
+      "HTTPS enforcement",
+      "Audit logging"
+    ]
+  },
+  "features": [
+    "Multi-repo traffic analytics",
+    "Interactive trends dashboard",
+    "Historical snapshots",
+    "Admin panel for env/config setup",
+    "Rate limiting and audit log",
+    "Automated server restart (optional)",
+    "One-click .env write"
+  ],
+  "ui": {
+    "dashboard": true,
+    "envSetup": true,
+    "historyTable": true,
+    "darkMode": true
+  },
+  "security_notes": "Remove or disable the admin setup panel after initial deployment. Use strong API and setup tokens. Enforce HTTPS in production.",
+  "last_updated": "2025-06-27",
+  "requestFramePermissions": []
+}
